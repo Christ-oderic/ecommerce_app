@@ -4,7 +4,7 @@ class TCheckboxTheme {
   TCheckboxTheme._();
 
   /// Customizable Light Text Theme
-  static final checkboxTheme = CheckboxThemeData(
+  static final checkboxThemeLight = CheckboxThemeData(
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
     checkColor: MaterialStateProperty.resolveWith((states) {
       if (states.contains(MaterialState.selected)) {
